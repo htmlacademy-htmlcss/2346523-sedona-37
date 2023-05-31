@@ -49,34 +49,34 @@
         <div>
           <!--Сделать заголовок скрытым, а жирный текст оформить в <p>?-->
           <h2 class="advantages-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+          <p class="advantages-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
         <ul class="advantages-list"><!--Обернуть в <div> и в CSS расположить карточки в нужном порядке?-->
           <li class="advantages-item">
             <h3 class="advantages-item-title">Настоящий городок</h3>
-            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </li>
           <li class="advantages-item">
             <img src="img/sedona-street.jpg" alt="Улицы Седоны" width="800">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Небольшая площадь</h3>
-            <p>Все достопримечательности находятся очень близко</p>
+            <p class="advantages-item-description">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Красивая дорога</h3>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p class="advantages-item-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Мало туристов</h3>
-            <p>Большинство едет в Гранд Каньон и толпится там</p>
+            <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item">
             <img src="img/sedona-canyon.jpg" alt="Каньон Седоны">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Там есть мост дьявола</h3>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
         </ul>
       </section>
@@ -84,66 +84,65 @@
         <div>
           <!--Сделать заголовок скрытым, а жирный текст оформить в <p>?-->
           <h2 class="features-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-          <p>Опытный персонал и качественное обслуживание!</p>
+          <p class="features-description">Опытный персонал и качественное обслуживание!</p>
         </div>
         <ul class="features-list">
           <li class="features-item">
             <h3 class="features-item-title">Жильё</h3>
-            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <p class="features-item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="features-item">
             <h3 class="features-item-title">Еда</h3>
-            <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <p class="features-item-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="features-item">
             <h3 class="features-item-title">Сувениры</h3>
-            <p>Не только китайского, но и настоящего местного производства!</p>
+            <p class="features-item-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
       </section>
       <section class="hotel-search">
-        <!--Сделать заголовок скрытым, а жирный текст оформить в <p>?-->
-        <h2 class="hotel-search-title">Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <h2 class="visually-hidden">Поиск гостиницы</h2>
+        <p class="hotel-search-description-large">Заинтересовались?</p>
+        <p class="hotel-search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="hotel-search-link" href="#">Поиск гостиницы в Седоне</a>
       </section>
-      <section class="subscribe">s
-        <!--Сделать заголовок скрытым, а жирный текст оформить в <p>?-->
+      <section class="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form action="https://echo.htmlacademy.ru/" class="subscribe-forms" method="post"></form>
+        <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post"></form>
         <label><input type="email" name="subscribe" id="subscribe-field" placeholder="Ваш e-mail">Подписаться</label>
       </section>
-      <footer class="page-footer">
-        <div class="footer-social">
-          <ul class="footer-social-list">
-            <li>
-              <a class="footer-social-vk" href="https://vk.com/htmlacademy">
-                <span class="visually-hidden">Вконтакте</span>
-                <img src="img/social-vk.svg" alt="Вконтакте">
-              </a>
-            </li>
-            <li>
-              <a class="footer-social-tg" href="https://t.me/htmlacademy">
-                <span class="visually-hidden">Телеграм</span>
-                <img src="img/social-tg.svg" alt="Телеграм">
-              </a>
-            </li>
-            <li>
-              <a class="footer-social-youtube" href="https://www.youtube.com/user/htmlacademy.ru">
-                <span class="visually-hidden">Ютуб</span>
-                <img src="img/social-youtube.svg" alt="Ютуб">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <address class="footer-tel">
-            <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-        </address>
-        <a href="https://htmlacademy.ru/">
-          <img src="img/footer-logo.svg" alt="Логотип HTML Academy">
-        </a>
-      </footer>
     </main>
+    <footer class="page-footer">
+      <div class="footer-social">
+        <ul class="footer-social-list">
+          <li>
+            <a class="footer-social-vk" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Вконтакте</span>
+              <img src="img/social-vk.svg" alt="Вконтакте">
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-tg" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Телеграм</span>
+              <img src="img/social-tg.svg" alt="Телеграм">
+            </a>
+          </li>
+          <li>
+            <a class="footer-social-youtube" href="https://www.youtube.com/user/htmlacademy.ru">
+              <span class="visually-hidden">Ютуб</span>
+              <img src="img/social-youtube.svg" alt="Ютуб">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <address class="footer-tel">
+          <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </address>
+      <a href="https://htmlacademy.ru/">
+        <img src="img/footer-logo.svg" alt="Логотип HTML Academy">
+      </a>
+    </footer>
   </body>
 </html>
